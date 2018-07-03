@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireCodable (0.1.1):
+    - Alamofire
+  - Bamboots (0.6.0):
+    - Alamofire
+    - AlamofireCodable
+  - SubmoduleHome (0.1.0):
+    - Bamboots
+
+DEPENDENCIES:
+  - SubmoduleHome (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireCodable
+    - Bamboots
+
+EXTERNAL SOURCES:
+  SubmoduleHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireCodable: 55cd99b65e96dc0ef690aa3933cf65189095b4e8
+  Bamboots: 175c77c65cece2155044ad59626f1913caa3780d
+  SubmoduleHome: bc4b7bf36127bcbe5f51acaafa6c99f6ffbc5303
+
+PODFILE CHECKSUM: d95874d05020610098f142df3ae7a2af8ea6e255
+
+COCOAPODS: 1.5.2
